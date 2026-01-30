@@ -11,7 +11,7 @@ from io import BytesIO
 # PAGE CONFIG
 # -------------------------------
 st.set_page_config(
-    page_title="Automation Tool by Faiz",
+    page_title="Automation Tool by Camel-NBFC-MFI-Solution",
     layout="wide"
 )
 
@@ -50,7 +50,7 @@ with col2:
 # NOTIFICATION BAR
 # -------------------------------
 st.info(
-    "This tool, created by the Risk Team (SMPL), allows efficient filtering, "
+    "This tool, created by the Camel-NBFC-MFI-Solution Team, allows efficient filtering, "
     "combining, and splitting of large CSV files."
 )
 
@@ -230,6 +230,6 @@ if st.button("🔄 Reset Application"):
 # FOOTER
 # -------------------------------
 st.markdown(
-    "<div style='text-align:center;color:gray;'>Developed by Faiz Khan</div>",
+    "<div style='text-align:center;color:gray;'>Developed by Camel-NBFC-MFI-Solution</div>",
     unsafe_allow_html=True
 )
